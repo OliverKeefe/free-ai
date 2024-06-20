@@ -11,7 +11,7 @@ const Nav = styled.nav`
     position: fixed;
     width: 100%;
     top: 0;
-    min-height: 30px;
+    min-height: var(--navbar-top-height);
     z-index: 1000;
 `;
 

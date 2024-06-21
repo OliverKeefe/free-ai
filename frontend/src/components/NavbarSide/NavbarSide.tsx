@@ -33,8 +33,8 @@ const SideNavUnorderedList = styled.ul`
 
     li {
         padding: 5px; /* Add padding for list items */
-        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-        border-radius: 25px; /* Ensure each list item has the border-radius */
+        transition: background-color 0.3s ease; 
+        border-radius: 25px;
 
         &:hover {
             background-color: #495057;
@@ -51,6 +51,7 @@ const SideNavUnorderedList = styled.ul`
 const SideNavbar: React.FC = () => {
     return (
         <SideNav>
+            <div>
             <SearchBar />
             <p>Today</p>
             <SideNavUnorderedList>
@@ -63,6 +64,7 @@ const SideNavbar: React.FC = () => {
                 <li><a>Capital of Spain</a></li>
                 <li><a>Why is my C++ header fi...</a></li>
             </SideNavUnorderedList>
+            </div>
         </SideNav>
     );
 }

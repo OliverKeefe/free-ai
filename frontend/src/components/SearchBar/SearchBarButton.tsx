@@ -27,7 +27,7 @@ const SearchBarBtn = styled.button`
 const SearchBarButton: React.FC = () => {
     return (
         <SearchBarBtn type="submit">
-            <img src ={searchIcon} alt="Q" />
+            <img src={searchIcon} alt="Q" />
         </SearchBarBtn>
     );
 }

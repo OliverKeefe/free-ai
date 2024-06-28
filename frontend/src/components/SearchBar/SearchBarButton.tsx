@@ -4,10 +4,10 @@ import searchIcon from '../../media/icons/search.svg';
 
 const SearchBarBtn = styled.button`
     padding: 10px;
-    height: 40px;
+    height: 35px;
     font-size: 16px;
     border: none;
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 10px 10px 0;
     background-color: #E7D7AD;
     color: #171A1A;
     cursor: pointer;

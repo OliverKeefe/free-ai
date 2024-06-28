@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import UserButton from './UserButton';
 
 const Nav = styled.nav`
     display: flex;
@@ -26,6 +27,7 @@ const NavbarTop: React.FC = () => {
     return (
         <Nav>
             <NavbarLogoContainer></NavbarLogoContainer>
+            <UserButton></UserButton>
         </Nav>
     );
 
